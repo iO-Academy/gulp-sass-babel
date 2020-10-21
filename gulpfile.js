@@ -6,7 +6,9 @@ var babel = require('gulp-babel');
 function babelCompile(cb) {
     return gulp.src("app/js/*.js")
         .pipe(sourcemaps.init())
-        .pipe(babel())
+        .pipe(babel({
+            presets: ["@babel/preset-env"]
+        }))
         .pipe(sourcemaps.write("."))
         .pipe(gulp.dest("app/js/dist"));
     cb();
