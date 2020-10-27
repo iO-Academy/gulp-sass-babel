@@ -24,6 +24,8 @@ function sassCompile(cb) {
 }
 
 function watch() {
+    sassCompile()
+    babelCompile()
     gulp.watch("app/scss/**/*.scss", sassCompile);
     gulp.watch("app/js/*.js", babelCompile);
 }
