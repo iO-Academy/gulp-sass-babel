@@ -1,4 +1,4 @@
-# gulp-setup
+# gulp-sass-babel
 
 Example gulp setup with SCSS compilation and Babel transpilation.
 
