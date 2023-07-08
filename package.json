@@ -14,7 +14,7 @@
     "@babel/preset-env": "^7.9.5",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5"
   }
 }
